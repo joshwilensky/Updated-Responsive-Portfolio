@@ -1,68 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="#">My Portfolio</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- JavaScript links -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <!--link to local css-->
+  <link rel="stylesheet" href="style.css" />
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#collapsibleNavbar"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <title>My Portfolio</title>
+</head>
 
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+<body>
+  <!-- header start -->
+  <header class="container-fluid">
+    <!-- navigation bar start  -->
+    <nav class="row">
+      <h1 class="col-sm-3 h1 center">Joshua Wilensky</h1>
+      <ul class="nav col-sm-8 center end">
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item"></li>
+      </ul>
     </nav>
+    <!-- navigation bar end  -->
+  </header>
+  <!-- header end  -->
 
-    <div class="container">
-      <h1 class="display-4">About Me</h1>
-
+  <!-- main content start  -->
+  <main class="container main">
+    <!-- 8 columns for the article to contain the about card  -->
+    <article class="col-sm-8 aboutCard">
+      <!-- first row containing about my header -->
+      <section class="row">
+        <div class="col-12" style="margin-bottom: 30px; margin-top: 20px;">
+          <h2 class="about">About Me</h2>
+        </div>
+      </section>
+      <!-- second row containing text and image  -->
       <div class="row">
-        <div class="col-4">
-          <img
-            style="float: none; margin-right: 20px;"
-            class="img-fluid"
-            ;
-            src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/48411434_10107701973200818_2239186285010878464_o.jpg?_nc_cat=111&_nc_sid=8bfeb9&_nc_ohc=S1PqQ7dcx6YAX-OjLMi&_nc_ht=scontent-lga3-1.xx&oh=d9978b86eb256aa2d4bdf4c052347208&oe=5F20624D"
-            alt="Picture of Me"
-            ;
-          />
-          <p>
+        <div class="col-sm-12" style="margin-left: 18px;">
+          <figure>
+            <img class="aboutMe" id="aboutmeimage" style="float: left; margin-right: 10px; margin-top: -19px;"
+              src="amazing_couple.jpg" alt="my picture">
+          </figure>
+
+          <p class="name">
             My wife and I met seven years ago in NYC. We dated for two and half
             years (which is a bit long for Jewish standards). When we got
             married we settled into our NYC apartment, and have been living here
             for the past five years. This past year has been truly exciting and
             frightening at the same time. We welcomed a new baby boy into our
             family two months ago, and now we will be moving to Florida in
-            October. I've been working as an operations manager for the past
+            October.
+          </p>
+          <p>
+            I've been working as an operations manager for the past
             five years at a restaurant. High performing manager, devising
             organized processes and procedures. Ability to boost sales through
             the reduction of unnecessary spending and maximizing output.
@@ -71,15 +83,28 @@
             savings. Looking for a new opportunity to make an impact and
             contribute to company goals.
           </p>
+
         </div>
       </div>
-    </div>
-  </body>
-  <section>
-    <footer>
-      <p>
-        &copy Copyright
-      </p>
+    </article>
+    <!-- end of the article  -->
+  </main>
+  <!-- end of the main content  -->
+
+  <!-- footer start  -->
+
+  <div class="d-flex flex-column sticky-footer-wrapper">
+    <nav></nav>
+    <!-- space filler to get the sticky footer effect -->
+    <div class="flex-fill"></div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+      <div class="container text-center">
+        <medium>&copy; Copyright
+          <a href="https://github.com/joshwilensky/Responsive-Portfolio">Joshua</a></small>
+      </div>
     </footer>
-  </section>
+  </div>
+  <!-- Footer end -->
+</body>
+
 </html>
