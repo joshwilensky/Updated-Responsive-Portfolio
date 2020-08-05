@@ -14,7 +14,7 @@
 
 ### [License](#License)
 
-### [Contributing](#Contributing)
+### [Author](#Author)
 
 ### [Questions](#Questions)
 
@@ -43,6 +43,8 @@ Responsive design ensures that web applications render well on a variety of devi
   -- Responsive images
 - The Bootstrap portfolio should minimize the use of media queries.
 - Screenshots are provided as a reference in the Assets/Images folder. Your app does not need to be exactly like the images. Use Bootstrap to create a similar, responsive layout.
+
+--
 
 ### <a name="License"></a>License:
 
