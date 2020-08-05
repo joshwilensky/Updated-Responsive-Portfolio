@@ -7,7 +7,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <!-- JavaScript links -->
+  <!-- javascript links -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -18,9 +18,9 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
   <!--link to local css-->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <title>My Portfolio</title>
+  <title>Portfolio</title>
 </head>
 
 <body>
@@ -31,7 +31,7 @@
       <h1 class="col-sm-3 h1 center">Joshua Wilensky</h1>
       <ul class="nav col-sm-8 center end">
         <li class="nav-item">
-          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link active" href="index.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -50,40 +50,34 @@
   <main class="container main">
     <!-- 8 columns for the article to contain the about card  -->
     <article class="col-sm-8 aboutCard">
-      <!-- first row containing about my header -->
+      <!-- first row containing about me header -->
       <section class="row">
-        <div class="col-12" style="margin-bottom: 30px; margin-top: 20px;">
-          <h2 class="about">About Me</h2>
+        <div class="col-12" style="margin-bottom: 30px; margin-top: 20px; margin-left: 20px;">
+          <h2 class="abouth2">About Me</h2>
         </div>
       </section>
-      <!-- second row containing text and image  -->
+      <!-- second row containg text and image  -->
       <div class="row">
         <div class="col-sm-12" style="margin-left: 18px;">
           <figure>
-            <img class="aboutMe" id="aboutmeimage" style="float: left; margin-right: 10px; margin-top: -19px;"
-              src="amazing_couple.jpg" alt="my picture">
+            <img class="aboutMe" id="aboutmeimage" src="assets\amazing_couple.jpg" alt="my picture" />
+            <p>
+              My wife and I met in the summer of 2013 in NYC. We dated for
+              roughly two and half years (a really long time in Jewish terms).
+              We got married during the winter of 2015 and made our humble
+              abode in NYC. This past year we had the greatest gift we could
+              ever ask for, a baby boy.
+            </p>
+            <p>
+              Now for my career I am a high performing manager, devising
+              organized processes and procedures. Ability to boost sales
+              through the reduction of unnecessary spending and maximizing
+              output. Motivate servers and staff to create guest satisfaction.
+              Redesign inventory management and overall efficiency, leading to
+              cost savings. Looking for a new opportunity to make an impact
+              and contribute to company goals.
+            </p>
           </figure>
-
-          <p class="name">
-            My wife and I met seven years ago in NYC. We dated for two and half
-            years (which is a bit long for Jewish standards). When we got
-            married we settled into our NYC apartment, and have been living here
-            for the past five years. This past year has been truly exciting and
-            frightening at the same time. We welcomed a new baby boy into our
-            family two months ago, and now we will be moving to Florida in
-            October.
-          </p>
-          <p>
-            I've been working as an operations manager for the past
-            five years at a restaurant. High performing manager, devising
-            organized processes and procedures. Ability to boost sales through
-            the reduction of unnecessary spending and maximizing output.
-            Motivate servers and staff to create guest satisfaction. Redesign
-            inventory management and overall efficiency, leading to cost
-            savings. Looking for a new opportunity to make an impact and
-            contribute to company goals.
-          </p>
-
         </div>
       </div>
     </article>
@@ -97,10 +91,10 @@
     <nav></nav>
     <!-- space filler to get the sticky footer effect -->
     <div class="flex-fill"></div>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-      <div class="container text-center">
-        <medium>&copy; Copyright
-          <a href="https://github.com/joshwilensky/Responsive-Portfolio">Joshua</a></small>
+    <footer id="sticky-footer">
+      <div>
+        <medium>Copyright &copy;
+          <a href="https://github.com/joshwilensky/Updated-Responsive-Portfolio">Joshua</a></medium>
       </div>
     </footer>
   </div>

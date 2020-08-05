@@ -147,4 +147,15 @@ body .sticky-footer-wrapper {
 p {
   text-indent: 4%;
   padding-right: 3%;
+  margin-right: 15px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: rgb(70, 182, 145);
+  color: white;
+  padding-top: 3%;
+  text-align: center;
+
 }
