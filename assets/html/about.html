@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Bootstrap CSS -->
+
+  <!-- BOOTSTRAP CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <!-- javascript links -->
+
+  <!-- JAVASCRIPT LINKS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -17,70 +19,63 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
-  <!--link to local css-->
-  <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <title>Portfolio</title>
+  <!-- LINK TO LOCAL CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <title>Responsive Portfolio</title>
 </head>
 
 <body>
-  <!-- header start -->
+  <!-- HEADER -->
   <header class="container-fluid">
-    <!-- navigation bar start  -->
+
+    <!-- NAV BAR  -->
     <nav class="row">
       <h1 class="col-sm-3 h1 center">Joshua Wilensky</h1>
       <ul class="nav col-sm-8 center end">
         <li class="nav-item">
-          <a class="nav-link active" href="assets\html\about.html">About</a>
+          <a class="nav-link active" href="/assets/html/about.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="assets\html\Portfolio.html">Portfolio</a>
+          <a class="nav-link" href="/assets/html/portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="assets\html\contact.html">Contact</a>
+          <a class="nav-link" href="/assets/html/contact.html">Contact</a>
         </li>
         <li class="nav-item"></li>
       </ul>
     </nav>
-    <!-- navigation bar end  -->
   </header>
-  <!-- header end  -->
 
-  <!-- main content start  -->
+  <!-- MAIN CONTENT  -->
   <main class="container main">
     <!-- 8 columns for the article to contain the about card  -->
-    <article class="col-sm-8 aboutCard">
-      <!-- first row containing about me header -->
-      <section class="row">
-        <div class="col-12" style="margin-bottom: 30px; margin-top: 20px; margin-left: 20px;">
-          <h2 class="abouth2">About Me</h2>
+    <div class="card mb-3" style="max-width: 540px;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="/assets/images/amazing_couple.jpg" class="card-img">
         </div>
-      </section>
-      <!-- second row containg text and image  -->
-      <div class="row">
-        <div class="col-sm-12" style="margin-left: 18px;">
-          <figure>
-            <img class="aboutMe" id="aboutmeimage" src="assets\images\amazing_couple.jpg" alt="my picture" />
-            <p>
-              My wife and I met in the summer of 2013 in NYC. We dated for
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">My wife and I met in the summer of 2013 in NYC. We dated for
               roughly two and half years (a really long time in Jewish terms).
               We got married during the winter of 2015 and made our humble
               abode in NYC. This past year we had the greatest gift we could
-              ever ask for, a baby boy.
-            </p>
-            <p>
-              Now for my career I am a high performing manager, devising
+              ever ask for, a baby boy. Now for my career I am a high performing manager, devising
               organized processes and procedures. Ability to boost sales
               through the reduction of unnecessary spending and maximizing
               output. Motivate servers and staff to create guest satisfaction.
               Redesign inventory management and overall efficiency, leading to
               cost savings. Looking for a new opportunity to make an impact
-              and contribute to company goals.
-            </p>
-          </figure>
+              and contribute to company goals.</p>
+            <p class="card-text"><small class="text-muted">Last updated: 8/5/20</small></p>
+          </div>
         </div>
       </div>
-    </article>
+    </div>
+
     <!-- end of the article  -->
   </main>
   <!-- end of the main content  -->
