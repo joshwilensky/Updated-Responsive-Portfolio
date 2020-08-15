@@ -136,10 +136,13 @@ li {
   margin-bottom: 25px;
   min-height: 100%;
   width: 100%;
+  margin: auto;
 }
 
 .figure {
   position: relative;
+  border: RGB(129, 239, 199) solid 2px;
+
 }
 
 .h3 {
@@ -150,6 +153,7 @@ li {
   text-align: center;
   padding: 21px;
   bottom: 50px;
+  opacity: .7;
 }
 
 .portimg {
