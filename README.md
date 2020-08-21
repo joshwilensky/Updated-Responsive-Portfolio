@@ -77,7 +77,7 @@ SOFTWARE.
 | --------------------- | ------------------------------------------------------------ |
 | **Email:**            | joshwilensky@gmail.com                                       |
 | **Portoflio:**        | https://github.com/joshwilensky/Updated-Responsive-Portfolio |
-| **GitHub Profile:**   | @joshwilensky                                                |
+| **GitHub Profile:**   | https://github.com/joshwilensky/                             |
 | **Resume:**           | [Updated Resume](#updated-resume)                            |
 | **LinkedIn Profile:** | https://www.linkedin.com/in/joshwilensky/                    |
 
