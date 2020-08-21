@@ -71,12 +71,12 @@ SOFTWARE.
 
 ### <a name="Author"></a>Author: Joshua Wilensky
 
-| Contact               | Links                                                        |
-| --------------------- | ------------------------------------------------------------ |
-| **Email:**            | joshwilensky@gmail.com                                       |
-| **Portoflio:**        | https://github.com/joshwilensky/Updated-Responsive-Portfolio |
-| **GitHub Profile:**   | https://github.com/joshwilensky/                             |
-| **Resume:**           | [Updated Resume](#updated-resume)                            |
-| **LinkedIn Profile:** | https://www.linkedin.com/in/joshwilensky/                    |
+| Contact               | Links                                                                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Email:**            | joshwilensky@gmail.com                                                                                                       |
+| **Portoflio:**        | https://github.com/joshwilensky/Updated-Responsive-Portfolio                                                                 |
+| **GitHub Profile:**   | https://github.com/joshwilensky/                                                                                             |
+| **Resume:**           | [Updated Resume](https://github.com/joshwilensky/Updated-Responsive-Portfolio/raw/master/Joshua%20Wilensky%20-%20Resume.pdf) |
+| **LinkedIn Profile:** | https://www.linkedin.com/in/joshwilensky/                                                                                    |
 
 ---
