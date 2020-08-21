@@ -75,12 +75,12 @@ SOFTWARE.
 
 Joshua Wilensky
 
-| Contact          | Links                                                                             |
-| ---------------- | --------------------------------------------------------------------------------- |
-| Email            | joshwilensky@gmail.com                                                            |
-| Portoflio        | [Updated Portfolio](https://github.com/joshwilensky/Updated-Responsive-Portfolio) |
-| GitHub Profile   | [GitHub Profile](https://github.com/joshwilensky/)                                |
-| Resume           | [Updated Resume](#updated-resume)                                                 |
-| LinkedIn Profile | [LinkedIn](https://www.linkedin.com/in/joshwilensky/)                             |
+| Contact              | Links                                                        |
+| -------------------- | ------------------------------------------------------------ |
+| **Email**            | joshwilensky@gmail.com                                       |
+| **Portoflio**        | https://github.com/joshwilensky/Updated-Responsive-Portfolio |
+| **GitHub Profile**   | https://github.com/joshwilensky/                             |
+| **Resume**           | [Updated Resume](#updated-resume)                            |
+| **LinkedIn Profile** | https://www.linkedin.com/in/joshwilensky/                    |
 
 ---
