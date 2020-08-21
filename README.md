@@ -16,9 +16,7 @@
 
 ### [Author](#Author)
 
-### [Questions](#Questions)
-
-### [Github](#Github)
+### [Links](#Links)
 
 ---
 
