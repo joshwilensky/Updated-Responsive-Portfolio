@@ -75,16 +75,12 @@ SOFTWARE.
 
 Joshua Wilensky
 
----
-
-### <a name="Questions"></a>Leave a Message:
-
-#### joshwilensky@gmail.com
-
----
-
-### <a name="Github"></a>GitHub Account:
-
-http://github.com/joshwilensky
+| Contact          | Links                                                                             |
+| ---------------- | --------------------------------------------------------------------------------- |
+| Email            | joshwilensky@gmail.com                                                            |
+| Portoflio        | [Updated Portfolio](https://github.com/joshwilensky/Updated-Responsive-Portfolio) |
+| GitHub Profile   | [GitHub Profile](https://github.com/joshwilensky/)                                |
+| Resume           | [Updated Resume](#updated-resume)                                                 |
+| LinkedIn Profile | [LinkedIn](https://www.linkedin.com/in/joshwilensky/)                             |
 
 ---
