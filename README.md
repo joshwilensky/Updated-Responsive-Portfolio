@@ -16,9 +16,7 @@
 
 ### [Author](#Author)
 
-### [Questions](#Questions)
-
-### [Github](#Github)
+### [Links](#Links)
 
 ---
 
@@ -71,20 +69,14 @@ SOFTWARE.
 
 ---
 
-### <a name="Author"></a>Author:
+### <a name="Author"></a>Author: Joshua Wilensky
 
-Joshua Wilensky
-
----
-
-### <a name="Questions"></a>Leave a Message:
-
-#### joshwilensky@gmail.com
-
----
-
-### <a name="Github"></a>GitHub Account:
-
-http://github.com/joshwilensky
+| Contact               | Links                                                                                                                        |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Email:**            | joshwilensky@gmail.com                                                                                                       |
+| **Portoflio:**        | https://github.com/joshwilensky/Updated-Responsive-Portfolio                                                                 |
+| **GitHub Profile:**   | https://github.com/joshwilensky/                                                                                             |
+| **Resume:**           | [Updated Resume](https://github.com/joshwilensky/Updated-Responsive-Portfolio/raw/master/Joshua%20Wilensky%20-%20Resume.pdf) |
+| **LinkedIn Profile:** | https://www.linkedin.com/in/joshwilensky/                                                                                    |
 
 ---
